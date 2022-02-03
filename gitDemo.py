@@ -1,1 +1,1 @@
-print("This is a demo of how to use git.")
+print("This is a demo of how to use git!")
