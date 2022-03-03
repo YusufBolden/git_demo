@@ -38,26 +38,26 @@ def say_hello_paul():
     print('and Good night')
 
 # say_hello_ash()
-# say_hello_paul()
+print(say_hello_paul())
 
-def say_morning_night():
-    print('Good morning')
-    print('and Good night')
+# def say_morning_night():
+#     print('Good morning')
+#     print('and Good night')
 
-def say_hello_ash():
-    print('Hello Ash')
-    say_morning_night()
+# def say_hello_ash():
+#     print('Hello Ash')
+#     say_morning_night()
 
-def say_hello_paul():
-    print('Hello Paul')
-    say_morning_night()
+# def say_hello_paul():
+#     print('Hello Paul')
+#     say_morning_night()
 
 # say_hello_ash()
 # say_hello_paul()
 
-def say_hello(name):
-    print(f'Hello {name}')
-    say_morning_night()
+# def say_hello(name):
+#     print(f'Hello {name}')
+#     say_morning_night()
 
 # say_hello("Ash")
 # say_hello("Paul")
@@ -65,29 +65,29 @@ def say_hello(name):
 # say_hello('Lillie')
 
 
-def times_two(num):
-    print(num*2)
+# def times_two(num):
+#     print(num*2)
 
 # times_two(4) # 8
 # times_two(4.0) # 8.0
 
-def multiply(a,b):
-    print(a * b)
+# def multiply(a,b):
+#     print(a * b)
 
 # multiply(2, 3) # 6
 
-def add(a, b):
-    print(a + b)
+# def add(a, b):
+#     print(a + b)
 
 # add(4.0, 5)
 
-def greeting(first_name, middle_name, last_name):
-    print(f'Hi, {first_name} {middle_name} {last_name}') 
+# def greeting(first_name, middle_name, last_name):
+#     print(f'Hi, {first_name} {middle_name} {last_name}') 
 
 # greeting('Martin', "Luther", "King") # Hi, Martin Luther King
 
-def ice_cream(flavor='chocolate'):
-    print(f'A {flavor} ice cream sundae with cherry on top')
+# def ice_cream(flavor='chocolate'):
+#     print(f'A {flavor} ice cream sundae with cherry on top')
 
 # ice_cream()
 # ice_cream('vanilla')
@@ -108,13 +108,29 @@ def multiply(a, b):
 # multiply(5, 6) # 30
 
 # Built-in functions
-name = 'Yusuf'
-print('Print this')
-print(type(name))
-print(int(5.688))
-print(float(6))
-print(type(23.2))
-print(range(4))
-text = 'ash rahman'
-print(text.upper())
+# name = 'Yusuf'
+# print('Print this')
+# print(type(name))
+# print(int(5.688))
+# print(float(6))
+# print(type(23.2))
+# print(range(4))
+# text = 'ash rahman'
+# print(text.upper())
 
+# def function_that_prints():
+#     print("I printed and won't see this again until it is called again.")
+
+# def function_that_returns():
+#     return "I will save this for later to use as often as I want because it's stored in my code."
+
+# f1 = function_that_prints()
+# f2 = function_that_returns()
+# print("Now let us see what the values of f1 and f2 are")
+# print(f1)
+# print(f2)
+# print(f1)
+# print(f2)
+# print(f1)
+# print(f2)
+# function_that_prints()
