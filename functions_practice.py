@@ -38,7 +38,7 @@ def say_hello_paul():
     print('and Good night')
 
 # say_hello_ash()
-print(say_hello_paul())
+# print(say_hello_paul())
 
 # def say_morning_night():
 #     print('Good morning')
@@ -118,19 +118,37 @@ def multiply(a, b):
 # text = 'ash rahman'
 # print(text.upper())
 
-# def function_that_prints():
-#     print("I printed and won't see this again until it is called again.")
+def function_that_prints():
+    print("I printed and won't see this again until it is called again.")
+    print('something else')
+    print('something else')
+    print('something else')
+    return
+    print('something else')
+    print('something else')
 
-# def function_that_returns():
-#     return "I will save this for later to use as often as I want because it's stored in my code."
+
+print('this is outside our function')
+function_that_prints()
+
+
+
+
+
+def function_that_returns():
+    return "I will save this for later to use as often as I want because it's stored in my code."
 
 # f1 = function_that_prints()
-# f2 = function_that_returns()
+# print(function_that_returns())
 # print("Now let us see what the values of f1 and f2 are")
-# print(f1)
-# print(f2)
-# print(f1)
-# print(f2)
-# print(f1)
-# print(f2)
 # function_that_prints()
+# print(function_that_returns())
+
+
+
+
+
+
+
+
+
